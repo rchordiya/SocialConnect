@@ -1,0 +1,11 @@
+{% extends "base.html"%}
+
+{% block content %}
+
+    {{object}}</br>
+    {{object.content}}</br>
+    {{object.timestamp}}</br>
+    {{object.timestamp|timesince}}</br>
+    {{object.user}}
+
+{% endblock content%}
